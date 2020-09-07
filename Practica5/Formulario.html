@@ -22,12 +22,12 @@
         <br>
         <br>
         <label for="Password">Password</label>
-        <input type="password" id="Password" minlength="8" maxlength="10">
+        <input type="password" id="Password" minlength="8" maxlength="10" required>
         <br>
         <br>
         <!--Min se utiliza para comparar numeros-->
         <label for="Numero">Teléfono</label>
-        <input type="number" id="Teléfono" required min="0" max="10">
+        <input type="number" id="Teléfono" required minlength="0" maxlength="10">
         <br>
         <br>
         <h4>Selecciona tu sexo</h4>
@@ -76,6 +76,26 @@
         <br>
         <label for="Volumen">Volumen</label>
         <input type="range">
+        <br>
+        <br>
+        <label for="">Comentarios</label>
+        <br>
+        <textarea id="Comentarios" cols="40" rows="10"required></textarea>
+        <br>
+        <label for="">Transporte</label>
+        <br>
+        <textarea id="Transporte" cols="12" rows="10">
+            camión 
+            carro
+            bicicleta
+            moto
+            avion
+            motoneta
+            helicoptero
+        </textarea>
+        <br>
+        <!--Input tipo de boton para validar la información-->
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
